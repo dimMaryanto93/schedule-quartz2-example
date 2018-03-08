@@ -7,9 +7,6 @@
     <groupId>com.maryanto.dimas.example</groupId>
     <artifactId>schedule-quartz2-example</artifactId>
     <version>1.0-STABLE</version>
-    <modules>
-        <module>trigger-by-time</module>
-    </modules>
     <packaging>pom</packaging>
 
     <properties>
