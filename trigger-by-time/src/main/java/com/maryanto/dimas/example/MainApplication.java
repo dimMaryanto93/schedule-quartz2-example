@@ -2,6 +2,8 @@ package com.maryanto.dimas.example;
 
 import org.quartz.*;
 
+import java.util.Date;
+
 public class MainApplication {
 
     public static void main(String[] args) throws SchedulerException {
@@ -15,10 +17,7 @@ public class MainApplication {
 
         Trigger trigger = TriggerBuilder.newTrigger()
                 .withIdentity("myTrigger", "group1")
-                .startNow()
-                .withSchedule(
-                        SimpleScheduleBuilder.simpleSchedule()
-                                .withIntervalInSeconds(30).repeatForever())
+                .startAt(new Date())
                 .build();
         scheduler.scheduleJob(job, trigger);
     }
