@@ -13,6 +13,7 @@
         <quartz.version>2.2.3</quartz.version>
         <slf4g.version>1.7.25</slf4g.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
@@ -41,6 +42,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>

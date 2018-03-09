@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <version>1.0</version>
-    <artifactId>cron-trigger</artifactId>
+    <artifactId>jobdata-map</artifactId>
 
     <build>
         <pluginManagement>
