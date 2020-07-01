@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <quartz.version>2.2.3</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <slf4g.version>1.7.25</slf4g.version>
     </properties>
 
